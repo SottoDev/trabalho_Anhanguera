@@ -63,3 +63,13 @@ def main():
     
 if __name__ == "__main__":
     main()
+    
+    
+''' 
+O sistema de gestão de notas funciona de forma simples e direta. 
+Primeiro, ele pede para o usuário digitar o nome do aluno, quantidade de notas e todas as notas que esse aluno recebeu, deixando elas em uma lista para serem cálculadas.
+Depois que as notas são cadastradas, o sistema mostra uma pequena mensagem de “calculando a média” enquanto soma todas as notas e divide pelo número total delas para encontrar a média final.
+Com essa média, ele verifica se o aluno está aprovado ou reprovado: se a média for igual ou maior que o numero desejado (7 no caso), o aluno é considerado aprovado; se não, é reprovado. 
+Por fim, o sistema exibe um relatório completo mostrando todas as notas do aluno, a média calculada e se foi aprovado ou não.
+
+'''
