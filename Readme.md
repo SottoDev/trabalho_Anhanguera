@@ -15,14 +15,53 @@ Com ele você pode:
 - Elas ficam guardadas numa lista.  
 - O programa calcula a média.  
 - Regras:  
-  - Média **≥ 7** → ✅ Aprovado  
-  - Média **< 7** → ❌ Reprovado  
+  - Média **≥ 7** → Aprovado  
+  - Média **< 7** → Reprovado  
 - No final ele mostra as notas, a média e a situação.  
 
 ---
+🎯 Exemplo
+  ```bash
+=== Sistema de Gestão de Notas ===
+Nome do aluno: João
+Quantas notas serão calculadas?: 3
+Nota 1: 8
+Nota 2: 6
+Nota 3: 9
+Calculando a média......
 
-## 💻 Como rodar
-1. Tenha o **Python 3** instalado.  
-   Pra conferir:  
-   ```bash
-   python --version
+Relatório do aluno: João
+Notas: [8.0, 6.0, 9.0]
+Média: 7.67
+Resultado: Aprovado
+```
+
+📂 Estrutura do código
+
+O sistema é dividido em funções para ficar mais organizado:
+
+cadastro_notas() → pede o nome do aluno e as notas.
+
+carregando() → exibe a animação de carregamento.
+
+limpar_terminal() → limpa a tela (funciona em Windows e Linux/Mac).
+
+calculo() → calcula a média das notas.
+
+verificar_aprovacao() → retorna "Aprovado" ou "Reprovado".
+
+exibir_relatorio() → mostra o relatório final.
+
+main() → ponto de entrada que organiza a execução.
+
+📌 Observações
+
+Dá pra cadastrar qualquer quantidade de notas.
+
+Se nenhuma nota for inserida, a média será 0.
+
+Código comentado para facilitar o entendimento.
+
+
+
+
